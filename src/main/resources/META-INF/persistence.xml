@@ -23,8 +23,8 @@
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<properties>
 			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@oradev:1521:otdlvy" />
-			<property name="javax.persistence.jdbc.user" value="mailman" />
-			<property name="javax.persistence.jdbc.password" value="g00dt1m3s" />
+			<property name="javax.persistence.jdbc.user" value="" />
+			<property name="javax.persistence.jdbc.password" value="" />
 			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect" />
 			<property name="hibernate.hbm2ddl.auto" value="create" />
