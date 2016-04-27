@@ -1,8 +1,8 @@
-package org.ici.webservices;
+package com.euroscripting.webservices;
 
+import com.euroscripting.dtos.LocationDTO;
 import org.apache.log4j.Logger;
-import org.ici.dtos.CurrencyDTO;
-import org.ici.facades.CurrencyFacade;
+import com.euroscripting.facades.LocationFacade;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -18,8 +18,8 @@ import java.util.List;
  * @author RobinsoB
  * @version 1.0 2011-12-14
  */
-@Path("currency")
-public class CurrencyService {
+@Path("location")
+public class LocationService {
 
 	@Context
 	UriInfo uriInfo;
@@ -29,20 +29,20 @@ public class CurrencyService {
 	
 	private Logger log = Logger.getLogger(this.getClass());
 	
-	public CurrencyService() {
+	public LocationService() {
 	}
 	
 	@Path("/")
 	@GET
 	@Consumes("application/x-www-form-urlencoded")
 	@Produces( { MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON } )
-	public List<CurrencyDTO> getAll(){
+	public List<LocationDTO> getAll(){
 		
-		CurrencyFacade facade = new CurrencyFacade();
+		LocationFacade facade = new LocationFacade();
 		
-		List<CurrencyDTO> curList = (List<CurrencyDTO>)facade.getAll();
+		List<LocationDTO> locList = (List<LocationDTO>)facade.getAll();
 		
-		return curList;
+		return locList;
 	}
 	
 }

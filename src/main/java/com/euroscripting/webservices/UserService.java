@@ -1,4 +1,4 @@
-package org.ici.webservices;
+package com.euroscripting.webservices;
 
 import org.apache.log4j.Logger;
 

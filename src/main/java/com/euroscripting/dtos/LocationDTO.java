@@ -6,7 +6,7 @@
 //
 
 
-package org.ici.dtos;
+package com.euroscripting.dtos;
 
 import javax.xml.bind.annotation.*;
 import java.io.Serializable;

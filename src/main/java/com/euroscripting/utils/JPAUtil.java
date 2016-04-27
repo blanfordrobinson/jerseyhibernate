@@ -1,4 +1,4 @@
-package org.ici.utils;
+package com.euroscripting.utils;
 
 import org.apache.log4j.Logger;
 

@@ -1,4 +1,4 @@
-package org.ici.common;
+package com.euroscripting.common;
 
 import com.sun.jersey.api.wadl.config.WadlGeneratorConfig;
 import com.sun.jersey.api.wadl.config.WadlGeneratorDescription;

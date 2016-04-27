@@ -1,4 +1,4 @@
-package org.ici.entities;
+package com.euroscripting.entities;
 
 import javax.persistence.*;
 import java.io.Serializable;

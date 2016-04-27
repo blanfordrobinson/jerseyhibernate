@@ -1,7 +1,7 @@
-package org.ici.assemblers;
+package com.euroscripting.assemblers;
 
-import org.ici.dtos.CurrencyDTO;
-import org.ici.entities.SxCurrencies;
+import com.euroscripting.dtos.CurrencyDTO;
+import com.euroscripting.entities.SxCurrencies;
 
 public class CurrencyAssembler {
 

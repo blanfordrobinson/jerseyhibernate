@@ -1,9 +1,9 @@
-package org.ici.facades;
+package com.euroscripting.facades;
 
-import org.ici.assemblers.CurrencyAssembler;
-import org.ici.daos.CurrencyDAO;
-import org.ici.dtos.CurrencyDTO;
-import org.ici.entities.SxCurrencies;
+import com.euroscripting.assemblers.CurrencyAssembler;
+import com.euroscripting.daos.CurrencyDAO;
+import com.euroscripting.dtos.CurrencyDTO;
+import com.euroscripting.entities.SxCurrencies;
 
 import java.util.ArrayList;
 import java.util.List;

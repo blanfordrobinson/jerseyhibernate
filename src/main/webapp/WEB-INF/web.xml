@@ -6,7 +6,7 @@
     <welcome-file>index.htm</welcome-file>
   </welcome-file-list>
   <listener>
-    <listener-class>org.ici.utils.ContextListener</listener-class>
+    <listener-class>com.euroscripting.utils.ContextListener</listener-class>
   </listener>
   <servlet>
     <description>JAX-RS Tools Generated - Do not modify</description>
@@ -16,7 +16,7 @@
     <!-- KM This is Jersey 1.9 specific, to enable generation of the XML schema from JAXB -->
     <init-param>
       <param-name>com.sun.jersey.config.property.WadlGeneratorConfig</param-name>
-      <param-value>org.ici.common.SchemaGenConfig</param-value>
+      <param-value>com.euroscripting.common.SchemaGenConfig</param-value>
     </init-param>
     <init-param>
       <param-name>com.sun.jersey.config.property.resourceConfigClass</param-name>

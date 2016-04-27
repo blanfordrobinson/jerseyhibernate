@@ -1,6 +1,6 @@
-package org.ici.daos;
+package com.euroscripting.daos;
 
-import org.ici.utils.JPAUtil;
+import com.euroscripting.utils.JPAUtil;
 
 import java.lang.reflect.ParameterizedType;
 import java.util.List;

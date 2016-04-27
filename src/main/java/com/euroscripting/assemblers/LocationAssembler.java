@@ -1,7 +1,7 @@
-package org.ici.assemblers;
+package com.euroscripting.assemblers;
 
-import org.ici.dtos.LocationDTO;
-import org.ici.entities.SxCities;
+import com.euroscripting.dtos.LocationDTO;
+import com.euroscripting.entities.SxCities;
 
 public class LocationAssembler {
 

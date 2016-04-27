@@ -1,9 +1,9 @@
-package org.ici.facades;
+package com.euroscripting.facades;
 
-import org.ici.assemblers.LocationAssembler;
-import org.ici.daos.LocationDAO;
-import org.ici.dtos.LocationDTO;
-import org.ici.entities.SxCities;
+import com.euroscripting.assemblers.LocationAssembler;
+import com.euroscripting.daos.LocationDAO;
+import com.euroscripting.dtos.LocationDTO;
+import com.euroscripting.entities.SxCities;
 
 import java.util.ArrayList;
 import java.util.List;
