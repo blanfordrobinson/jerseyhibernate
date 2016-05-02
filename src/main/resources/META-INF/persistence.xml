@@ -5,7 +5,7 @@
 	<persistence-unit name="default" transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:derby:DerbyDB/hibernate;create=true;user=sa;password=password" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:derby:DerbyDB/hibernate" />
 			<property name="javax.persistence.jdbc.user" value="sa" />
 			<property name="javax.persistence.jdbc.password" value="password" />
 			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver" />
@@ -17,6 +17,12 @@
 			     See - https://forum.hibernate.org/viewtopic.php?p=2204438&sid=111f7e8435ac5c2ab521325ad04fa7ab -->
 			<property name="hibernate.jdbc.use_scrollable_resultset" value="false" />
 			<property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.c3p0.min_size" value="10" />
+            <property name="hibernate.c3p0.max_size" value="20" />
+            <property name="hibernate.c3p0.acquire_increment" value="1" />
+            <property name="hibernate.c3p0.idle_test_period" value="3000" />
+            <property name="hibernate.c3p0.max_statements" value="50" />
+            <property name="hibernate.c3p0.timeout" value="1800" />
 		</properties>
 	</persistence-unit>
 	<persistence-unit name="oracle" transaction-type="RESOURCE_LOCAL">
